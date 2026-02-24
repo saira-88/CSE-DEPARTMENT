@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header section with logo */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #1a237e;
+  padding: 15px 30px;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+/* Title inside header */
+.header h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Navigation list */
+ul {
+  list-style-type: none;
+  padding: 20px 30px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+/* Paragraph text */
+p {
+  padding: 0 30px 20px 30px;
+}
