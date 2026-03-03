@@ -216,6 +216,7 @@ footer {
     display: block;
 }
 
+<<<<<<< HEAD
 /* ================= NEWS SECTION ================= */
 
 .news-section {
@@ -301,4 +302,10 @@ footer {
     color: #004080;
     font-weight: 500;
     text-decoration: none;
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #f0f0f0;
 }
