@@ -7,3 +7,20 @@ buttons.forEach(btn => {
             content.style.display === "block" ? "none" : "block";
     });
 });
+
+const programItems = document.querySelectorAll(".program-item");
+
+programItems.forEach(item => {
+    const header = item.querySelector(".program-header");
+
+    header.addEventListener("click", () => {
+
+        programItems.forEach(otherItem => {
+            if (otherItem !== item) {
+                otherItem.classList.remove("active");
+            }
+        });
+
+        item.classList.toggle("active");
+    });
+});
