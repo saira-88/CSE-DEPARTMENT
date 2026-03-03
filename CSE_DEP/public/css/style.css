@@ -20,7 +20,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-    background: white;
+    background: rgb(10, 6, 6);
     padding: 15px 100px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
